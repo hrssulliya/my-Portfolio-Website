@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Glassmorphism - Portfolio Website </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="css/font-awesome.css"> -->
+  <script src="https://kit.fontawesome.com/6c9fdabd01.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ---------Background Circles----- -->
+  <div class="bg-circles">
+    <div class="circle-1"></div>
+    <div class="circle-2"></div>
+    <div class="circle-3"></div>
+    <div class="circle-4"></div>
+  </div>
+  <!-- --------- Main Start  ---------- -->
+  <div class="main">
+
+    <!-- ---------- Header Start ------------- -->
+    <header class="header">
+      <div class="nav">
+        <ul>
+          <li><a href="#home" class="nav-item link-item">Home</a></li>
+          <li><a href="#about" class="nav-item link-item">about</a></li>
+          <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+          <li><a href="#contact" class="nav-item link-item">contact</a></li>
+        </ul>
+      </div>
+      <button type="button" class="nav-toggler">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <section class="navbar">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <li><a href="#home" class="nav-item link-item">Home</a></li>
+            <li><a href="#about" class="nav-item link-item">about</a></li>
+            <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+            <li><a href="#contact" class="nav-item link-item">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Header End ------------- -->
+    <!-- --------- Home section Start  ---------- -->
+    <section class=" home-section align-item-center active" id="home">
+      <div class="container">
+        <div class="row align-item-center">
+          <div class="home-text">
+            <p>Hello, I'm</p>
+            <h1>Sulliya Haris</h1>
+            <h2>And I'm <span
+              class="txt-rotate"
+              data-period="1500"
+              data-rotate='[ "Full stack web developer.", "Backend developer", "frontend developer", "Python developer", "Software developer" ]'></span>
+              <!-- <span>Full stack web developer</span>  -->
+              <!-- <span>Backend developer</span> <span>frontend developer</span> -->
+            </h2>
+            <a href="#about" class="btn link-item">More about me</a>
+            <a href="#portfolio" class="btn link-item">Portfolio</a>
+          </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/my-profile-photo.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- Home section End  ---------- -->
+
+    <!-- --------- About section Start  ---------- -->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="img/about-img.png" alt="">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur non fugit vitae repudiandae inventore
+              recusandae ipsum voluptate libero id atque vero earum ipsam facilis architecto deleniti eius quaerat
+              velit, quia consequuntur esse. Fuga velit, voluptatibus vero ullam iusto odit ipsa eveniet distinctio in
+              quaerat exercitationem aut molestiae totam omnis voluptate.</p>
+            <h3>Skills</h3>
+            <div class="skills">
+              <div class="skill-item">html</div>
+              <div class="skill-item">css</div>
+              <div class="skill-item">javascript</div>
+              <div class="skill-item">bootstrap</div>
+              <div class="skill-item">angular</div>
+              <div class="skill-item">python</div>
+              <div class="skill-item">Flask</div>
+              <div class="skill-item">sql</div>
+              <div class="skill-item">git</div>
+            </div>
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#education">education</button>
+              <button type="button" class="tab-item" data-target="#experience">experience</button>
+            </div>
+            <!-- --------- Education Start  ---------- -->
+            <div class="tab-content active" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>graduation in islamic studies - <span>Jamiya Naziriya Kakoshi</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>graduation in islamic studies - <span>Jamiya Naziriya Kakoshi</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>graduation in islamic studies - <span>Jamiya Naziriya Kakoshi</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- --------- Education End  ---------- -->
+
+
+            <!-- --------- experience Start  ---------- -->
+            <div class="tab-content" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>Web developer - <span>Mumbai coding club</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>Web developer - <span>Mumbai coding club</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2012 - 2020</span>
+                  <h4>Web developer - <span>Mumbai coding club</span></h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos cum quam iste consequuntur iusto?
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- --------- experience End  ---------- -->
+            <a href="cv.pdf" class="btn" target="_blank">download CV</a>
+            <a href="#contact" class="btn link-item">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- About section End  ---------- -->
+
+    <!-- --------- Portfolio Start  ---------- -->
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-- --- portfolio item-1 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/1.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">Education course Website</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+          <!-- --- portfolio item-2 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/2.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">personal portfolio Website</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>bootstrap</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+          <!-- --- portfolio item-3 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/3.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">App landing page</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+          <!-- --- portfolio item-4 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/4.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">restaurant Website</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>Html, Css</span></li>
+                  <li>Role - <span>Frontend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+          <!-- --- portfolio item-5 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/5.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">personal portfolio Website</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>python, flask, sql-alchemy</span></li>
+                  <li>Role - <span>Backend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+          <!-- --- portfolio item-6 Start ---- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/portfolio/6.jpg" alt="">
+            </div>
+            <h3 class="portfolio-item-title">project landing page</h3>
+            <button type="button" class="btn view-project-btn">View Project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore cupiditate nihil, molestiae
+                  voluptatibus deserunt porro pariatur laudantium numquam ullam in placeat omnis, a iure? Nemo fugit
+                  error numquam vitae, officia minima mollitia iusto alias minus non nihil ullam dolorum?</p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created - <span>4 Dec 2021</span></li>
+                  <li>technologies - <span>Html, Css</span></li>
+                  <li>Role - <span>Backend</span></li>
+                  <li>View Online - <span><a href="#" target="_blank">www.domin.in</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- --- portfolio item End ---- -->
+        </div>
+      </div>
+    </section>
+    <!-- --------- Portfolio End  ---------- -->
+
+
+    <!-- --------- contact section Start  ---------- -->
+    <section class="contact-section sec-padding" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Contact me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <form action="">
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Name" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Email" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" class="input-control" required>
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Message" class="input-control" required></textarea>
+                </div>
+                <div class="submit-btn">
+                  <button type="submit" class="btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p>abuharisulliya@gmail.com</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>Phone</h3>
+              <p>91 98 **** ****</p>
+            </div>
+            <div class="contact-info-item">
+              <h3>follow me</h3>
+              <div class="wrapper">
+                <a href="https://www.linkedin.com/in/abuharis-sulliya-7164a7216/" class="icon linkedin" target="_blank">
+                  <div class="tooltip">linkedin</div>
+                  <span><i class="fab fa-linkedin"></i></span>
+                </a>
+                <a href="https://github.com/hrssulliya" class="icon github" target="_blank">
+                  <div class="tooltip">github</div>
+                  <span><i class="fab fa-github"></i></span>
+                </a>
+                <a href="https://twitter.com/abuharisslliya" class="icon twitter" target="_blank">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+                <a href="#" class="icon youtube">
+                  <div class="tooltip">Youtube</div>
+                  <span><i class="fab fa-youtube"></i></span>
+                </a>
+                <a href="#" class="icon call">
+                  <div class="tooltip">Call +91 90********</div>
+                  <span><i class="fa fa-phone"></i></span>
+                </a>
+                <a href="#" class="icon whatsapp">
+                  <div class="tooltip">Whatsapp</div>
+                  <span><i class="fab fa-whatsapp"></i></span>
+                </a>
+                <a href="#" class="icon telegram">
+                  <div class="tooltip">Telegram</div>
+                  <span><i class="fab fa-telegram"></i></span>
+                </a>
+                <a href="#" class="icon mail">
+                  <div class="tooltip">Mail</div>
+                  <span><i class="fa fa-envelope"></i></span>
+                </a>
+                <a href="#" class="icon location">
+                  <div class="tooltip">Location</div>
+                  <span><i class="fa fa-map-marker"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- contact section End  ---------- -->
+  </div>
+
+  <!-- --------- Main End  ---------- -->
+
+
+  <!-- --------- portfolio Item Details Popup Start  ---------- -->
+  <div class="portfolio-popup">
+    <div class="pp-inner">
+      <div class="pp-content">
+        <div class="pp-header">
+          <button type="button" class="btn pp-close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <div class="pp-thumbnail">
+            <img src="img/portfolio/3.jpg" alt="">
+          </div>
+          <h3></h3>
+        </div>
+        <div class="pp-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------- portfolio Item Details Popup End  ---------- -->
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
